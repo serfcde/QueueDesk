@@ -1,0 +1,22 @@
+========== QueueDesk end-of-day report ==========
+Generated: 2026-10-15 07:54
+Total tickets: 8
+
+By status:
+  OPEN           4
+  IN_PROGRESS    1
+  RESOLVED       2
+  CLOSED         1
+
+By priority:
+  LOW            2
+  MEDIUM         2
+  HIGH           1
+  CRITICAL       3
+
+Oldest OPEN ticket:
+  Feature #4[MEDIUM/OPEN] Dark mode (by ravi, unassigned,tags=[ui])votes=14 (141h old)
+
+Overdue CRITICAL tickets (SLA 4h):
+  BUG #1[CRITICAL/IN_PROGRESS] Login page 500 error (by asha, @karthik,tags=[auth, customer-facing]) severity=BLOCKER (47h old)
+  ACCESS#6[CRITICAL/OPEN] Prod DB access (by meena, @karthik,tags=[prod]) ADMINon postgres-prod (49h old)

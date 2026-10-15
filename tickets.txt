@@ -1,0 +1,13 @@
+# type|title|description|requester|priority|status|createdAt|assignee|tags|extra1|extra2
+# BUG extras:     severity|stepsToReproduce
+# FEATURE extras: businessJustification|votes
+# ACCESS extras:  systemName|accessLevel
+
+BUG|Login page 500 error|Submitting the login form returns HTTP 500 for every user since this morning's deploy; no workaround|asha|CRITICAL|IN_PROGRESS|2026-10-13T08:30|karthik|auth, customer-facing|BLOCKER|Open /login, enter valid creds, submit
+BUG|Typo on dashboard|Recieve -> Receive|ravi|LOW|RESOLVED|2026-10-10T11:00|priya|ui|TRIVIAL|Open dashboard
+BUG|Export to CSV drops last row||meena|HIGH|OPEN|2026-10-11T16:45||reports|MAJOR|
+FEATURE|Dark mode|For night shift staff|ravi|MEDIUM|OPEN|2026-10-09T10:00||ui|Reduces eye strain complaints|14
+FEATURE|Bulk close tickets|Select many tickets and close them at once|priya|LOW|OPEN|2026-10-12T09:20|priya||Saves ~30 min per day for agents|3
+ACCESS|Prod DB access|Need to debug export issue|meena|CRITICAL|OPEN|2026-10-13T06:00|karthik|prod|postgres-prod|ADMIN
+ACCESS|Wiki edit access||asha|MEDIUM|CLOSED|2026-10-08T15:30|karthik||confluence|WRITE
+ACCESS|VPN for new joiner|Starts Monday|ravi|CRITICAL|RESOLVED|2026-10-12T18:00|priya|onboarding|vpn-gateway|READ
